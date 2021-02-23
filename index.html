@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <p>header</p>
+    </header>
+<div class="content">
+  <div class="textdiv">
+    Гений непредвзято понимает под собой конфликт. Закон внешнего мира, очевидно, реально подчеркивает аксиоматичный здравый смысл. Культ джайнизма включает в себя поклонение Махавире и другим тиртханкарам, поэтому закон исключённого третьего индуцирует изоморфный ротор.
+</div>
+
+<div class="normal_right_div_odnokratno normal_right_div text">
+  Чувство однократно
+</div>
+
+<div class="normal_right_div_moreno normal_right_div text">
+  Морено
+</div>
+
+<div class="small_div_workers small_div  text">
+Наши сотрудники
+</div>
+
+<div class="small_div_test small_div  text">
+Просветляет понимающий тест
+</div>
+
+<div class="middle_div_konf middle_div    text">
+Конформизм
+</div>
+
+<div class="small_div_int small_div  text">
+Интроекция
+</div>
+
+<div class="small_div_workers2 small_div  text">
+Наши сотрудники
+</div>
+
+<div class="small_div_lid small_div  text">
+Лидерство
+</div>
+
+<div class="small_div_nevgeni small_div  text">
+Невероятный гений
+</div>
+
+<div class="small_div_vector small_div  text">
+Длина вектора
+</div>
+
+<div class="small_div_tchk small_div  text">
+Точка перегиба
+</div>
+
+<div class="middle_div_odnako middle_div    text">
+Однако
+</div>
+
+<div class="bigdiv">
+<div id="row1" class="row">
+<div class="leftblok">
+  <div class="first">
+    Фамилия
+  </div>
+  <div class="second">
+
+  </div>
+</div>
+<div class="rightblok">
+  Мамай
+</div>
+</div>
+
+
+<div id="row2" class="row">
+<div class="leftblok">
+  <div class="first">
+    Имя и отчество
+  </div>
+  <div class="second">
+
+  </div>
+</div>
+<div class="rightblok">
+  Станиславаленина Владимировна
+</div>
+</div>
+
+
+<div id="row3" class="row">
+<div class="leftblok">
+  <div class="first">
+    Номер полиса выдан заведомо ложный
+  </div>
+  <div class="second">
+
+  </div>
+</div>
+<div class="rightblok">
+  01354879
+</div>
+</div>
+
+
+<div id="row4" class="row">
+<div class="leftblok">
+  <div class="first">
+    Дата рождения
+  </div>
+  <div class="second">
+
+  </div>
+</div>
+<div class="rightblok">
+  01.12.1976
+</div>
+</div>
+
+
+<div id="row5" class="row">
+<div class="leftblok">
+  <div class="first">
+    Телефон
+  </div>
+  <div class="second">
+
+  </div>
+</div>
+<div class="rightblok">
+  +79254218069
+</div>
+</div>
+</div>
+
+<div class="normal_left_div_vlast normal_left_div text">
+Понятие модернизации понимает механизм власти
+</div>
+
+<div class="normal_left_div_worker3 normal_left_div text">
+Наши сотрудники
+</div>
+</div>
+   
+
+    <footer>
+      <p>footer</p>
+    </footer>
+
+  </body>
+
+  <script type="text/javascript">
+    function dot() {
+      for (let i = 1; i <= 5; i++) {
+        $("#row" + i)
+          .children(".leftblok")
+          .children(".second")
+          .width(
+            $("#row" + i).width() -
+              ($("#row" + i)
+                .children(".leftblok")
+                .children(".first")
+                .width() +
+                $("#row" + i)
+                  .children(".rightblok")
+                  .width()) -
+              5
+          );
+      }
+    }
+
+    dot();
+    $(window).resize(function () {
+      dot();
+    });
+  </script>
+</html>

@@ -1,0 +1,128 @@
+
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo_container {
+    display: inline-block;
+    height: 100%;
+    width: auto;
+  }
+  
+  .photo {
+    -webkit-clip-path: polygon(50% 0, 100% 30%, 70% 100%, 30% 100%, 0 30%);
+    clip-path: polygon(50% 0, 100% 30%, 70% 100%, 30% 100%, 0 30%);
+    width: 47px;
+    height: 47px;
+  }
+  
+  .messanger {
+    background-image: url("dialog.png");
+    width: 651px;
+    height: 757px;
+    margin: 0 auto;
+  }
+  
+  .left_box {
+    padding-top: 20px;
+    padding-left: 15px;
+    position: relative;
+    display: flex;
+  }
+  
+  .right_box {
+    position: relative;
+    padding-top: 20px;
+    padding-right: 33px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .comment_buble {
+    background: #f1f3f5;
+    max-width: 440px;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+    position: relative;
+  }
+  
+  .data {
+    text-align: center;
+    position: relative;
+  }
+
+  .data::after {
+      content: "";
+    border-top: 1px solid #DBDBDB;
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    left: 5px;
+    height: 0;
+  }
+
+  .data::before {
+    content: "";
+  border-top: 1px solid #DBDBDB;
+  position: absolute;
+  top: 50%;
+  width: 35%;
+  right: 5px;
+  height: 0;
+}
+  
+  .box {
+    padding-top: 20px;
+    border-top: 1px solid #DBDBDB;
+    margin-top: 20px;
+  }
+  
+  .input_box {
+    width: 590px;
+    height: 129px;
+    margin-left: 25px;
+    padding-bottom: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  .knopka {
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  
+  .knopka button {
+    width: 144px;
+    height: 41px;
+    cursor: pointer;
+    border: none;
+    background: #0F54B9;
+    color: white;
+    font-family: 'Proxima Nova';
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 21px;
+    box-shadow: 0px 4px 6px rgb(15 84 185 / 30%);
+  }
+  
+  
+  .text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #000000;
+  }
+  
